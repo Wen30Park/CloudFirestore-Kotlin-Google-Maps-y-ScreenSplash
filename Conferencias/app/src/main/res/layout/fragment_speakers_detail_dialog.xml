@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Toolbar
+            android:id="@+id/toolbarConference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/AltoImageView"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_margin="20dp"/>
+
+                </RelativeLayout>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/detailSpeakerName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Speaker Name"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="30sp"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/detailSpeakerJoin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Join Title"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="15sp"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/detailSpeakerWork"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Workplace"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_baseline_emoji_people_24"/>
+                        <TextView
+                            android:id="@+id/detailSpeakerBiography"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="lorem impus"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="15sp"
+                            android:gravity="left" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+</FrameLayout>

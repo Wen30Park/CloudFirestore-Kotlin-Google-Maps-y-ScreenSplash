@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "259832723723",
+    "firebase_url": "https://confjair.firebaseio.com",
+    "project_id": "confjair",
+    "storage_bucket": "confjair.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259832723723:android:cd9de26bea0ebd54b50a0e",
+        "android_client_info": {
+          "package_name": "com.jair.conf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259832723723-u8iv8riq9rjj64nprbqaeak65rtrvgps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jair.conf",
+            "certificate_hash": "00fd0fe56ee6ed8343a42a2a3472d179a9f98452"
+          }
+        },
+        {
+          "client_id": "259832723723-66tua3kms4rjbap3vs6lah1d6saqr72e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg6RJn0N9Ptou9M_u51BjfySm5esuXJeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259832723723-66tua3kms4rjbap3vs6lah1d6saqr72e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
